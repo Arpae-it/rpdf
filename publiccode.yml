@@ -44,7 +44,7 @@ maintenance:
   contacts:
     - name: Paolo Veronesi
   type: community
-name: mappatore
+name: rpdf
 platforms:
   - linux
   - windows
@@ -52,4 +52,4 @@ platforms:
 releaseDate: '2021-07-21'
 softwareType: standalone/web
 softwareVersion: stable
-url: 'https://github.com/Arpae-it/windrose'
+url: 'https://github.com/Arpae-it/rpdf'
