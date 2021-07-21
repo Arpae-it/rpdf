@@ -8,21 +8,17 @@ categories:
 description:
   en:
     features:
-      - Make wind roses from simple csv files
+      - Extract tables from local and online pdf files
     genericName: R + Shiny app
-    localisedName: windrose
+    localisedName: rpdf
     longDescription: |
-      A very simple tool to do something not so easy when using standard
-      spreadsheets: windroses. Based on the majestic openair package
-      (https://cran.r-project.org/web/packages/openair/index.html), this simple
-      tools allows the user to upload a easily formatted  csv file (a demo file
-      is provided) and automatically produces a 24h wind rose, a daylight wind
-      rose and a nighttime wind rose. Some basic options are provided. The
-      images can be exported as png. A working demo can be seen at:
-      https://arpae.shinyapps.io/windrosebollettini/
+      A very simple tool to extract tables from local and online pdf files. Just point to the web address of a pdf file or upload your local pdf file and wait for the 
+      renderer to show it in the preview. Then choose the table you'd like to extract as simple text and just enter the progressive number of the table in the file (for example
+      in order to extract the second table of a local pdf file just write the number 2).
+      The app is made in R and deployed using Shiny server. A working example can be found here:
+      https://arpae.shinyapps.io/rpdf/
     shortDescription: |
-      An automatic Shiny + R tool to produce wind roses starting from very
-      simply formatted csv files
+      An  Shiny + R tool to extract text tables from pdf files
 developmentStatus: stable
 it:
   conforme:
