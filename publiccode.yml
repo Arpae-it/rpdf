@@ -8,7 +8,7 @@ categories:
 description:
   en:
     features:
-      - Extract tables from local and online pdf files
+      - Extracting tables from local and online pdf files
     genericName: R + Shiny app
     localisedName: rpdf
     longDescription: |
