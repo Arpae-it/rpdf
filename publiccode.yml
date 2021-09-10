@@ -19,10 +19,11 @@ description:
       https://arpae.shinyapps.io/rpdf/
     shortDescription: |
       An  Shiny + R tool to extract text tables from pdf files
-developmentStatus: stable
- screenshots:
+    screenshots:
       - >-
         screenshot.png
+developmentStatus: stable
+ 
 it:
   conforme:
     gdpr: false
